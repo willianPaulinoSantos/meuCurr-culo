@@ -1,0 +1,29 @@
+.cabecalho{
+	position: relative;
+	width: 80%;
+	margin: 3px auto;
+}
+
+h1 {
+	display: inline;
+}
+
+img {
+	position: absolute;
+	top: 20px;
+	width: 10%;
+	border-radius: 70%;
+	display: inline;
+}
+
+body {
+	background-color: #F5F5F5;
+}
+
+.nome {
+	position: absolute;
+	font-size: 35px;
+	display: inline;
+	right: 10px;
+	top: 80px;
+}
