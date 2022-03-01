@@ -1,0 +1,17 @@
+:root {
+    --opensans: 'Open sans', sans-serif;
+    --montserrat: 'Montserrat', sans-serif;
+
+    --cinza-escuro: #484f55;
+    --rosa-salmao: #fbe7d3;
+    --branco-gelo: #fefefa;
+}
+
+body {
+    height: 100vw;
+    max-height: 700px;
+}
+
+h2 {
+    font-family: var(--montserrat);
+}

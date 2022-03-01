@@ -1,0 +1,56 @@
+.dados_pessoais {
+    display: inline-block;
+    width: 30%;
+    height: 100%;
+    background-color: var(--cinza-escuro);
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+h1 {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.cabecalho_foto {
+    width: 30%;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.cabecalho_nome {
+    font-family: var(--montserrat);
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: var(--rosa-salmao);
+    margin-bottom: 1rem;
+}
+
+.cabecalho_cargo {
+    font-family: var(--opensans);
+    font-weight: 400;
+    text-transform: uppercase;
+    color: var(--rosa-salmao);
+}
+
+hr {
+    width: 80%;
+    border: .2rem solid var(--rosa-salmao);
+    border-radius: 2px;
+}
+
+.perfil {
+    margin-top: 2rem;
+}
+
+/* Seção do histórico */
+
+.historico {
+    display: inline-block;
+    background-color: var(--branco-gelo);
+}
