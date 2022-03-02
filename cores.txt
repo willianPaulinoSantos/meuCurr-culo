@@ -1,0 +1,3 @@
+--cinza-escuro: #484f55
+--rosa-salmao: #fbe7d3
+--branco-gelo: #fefefa

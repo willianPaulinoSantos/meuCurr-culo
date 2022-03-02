@@ -9,12 +9,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
 }
 
 h1 {
     text-align: center;
-    margin: 2rem 0;
+    margin: 1rem 0;
 }
 
 .cabecalho_foto {
@@ -36,11 +36,11 @@ h1 {
     font-weight: 400;
     text-transform: uppercase;
     color: var(--rosa-salmao);
+    padding: 2rem;
 }
 
 hr {
     width: 80%;
-    border: .2rem solid var(--rosa-salmao);
     border-radius: 2px;
 }
 
@@ -48,9 +48,66 @@ hr {
     margin-top: 2rem;
 }
 
+.pessoal {
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: var(--rosa-salmao);
+    margin-bottom: 1rem;
+}
+
+.pessoal_bloco {
+    width: 72%;
+    margin: 1rem 3rem 2rem 3rem;
+}
+
+.perfil_descricao {
+    color: #FFF;
+    text-align: justify;
+}
+
+.habilidades_lista {
+    color: #FFF;
+    line-height: 1.5rem;
+}
+
+.contato_lista {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 3.5rem;
+}
+
+.icone:hover {
+    transform: scale(2);
+}
+
+
+
+
+
 /* Seção do histórico */
 
 .historico {
     display: inline-block;
     background-color: var(--branco-gelo);
+    vertical-align: top;
+}
+
+
+/* Seção Mobile*/
+
+@media screen and (max-width: 768px){
+    .dados_pessoais {
+        display: block;
+        width: 100%;
+    }
+
+    .historico {
+        display: block;
+    }
+    
+    .contato_lista {
+        padding-bottom: 4rem;
+    }
+
 }

@@ -3,7 +3,7 @@
 <html lang="pt-br">
 	<head>
 		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width initial-scale 1.0">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/base.css">
 		<link rel="stylesheet" href="css/curriculo.css">
@@ -11,54 +11,60 @@
 		<title>Willian Paulino</title>
 	</head>
 	<body>
-		<section class="dados_pessoais">
-			<div class="cabecalho">
-				<h1><img class="cabecalho_foto" src="imagens/willian1.jpeg"></h1>
-				<h2 class="cabecalho_nome">Willian Paulino</h2>
-				<p class="cabecalho_cargo">Desenvolvedor FullStack (student)</p>
-			</div>
-			<hr>
-			<div class="perfil">
-				<h2 class="perfil_titulo">Perfil Pessoal</h2>
-				<p class="perfil_descricao">Descrição</p>
-			</div>
-			<div class="habilidades_competencias">
-				<h2 class="titulo_habilidades">Habilidades e Competências</h2>
-				<ul>
-					<li>*</li>
-					<li>*</li>
-					<li>*</li>
-					<li>*</li>
-				</ul>
-			</div>
-			<div class="contato">
-				<h2 class="contato_titulo">Contato</h2>
-				<ul>
-					<li><a src="#" class="contato_link-whats"><img class="contato_whats" src="imagens/whatsapp.svg"></a></li>
-					<li><a src="#" class="contato_link-email"><img class="contato_email" src="imagens/gmail.svg"></a></li>
-					<li><a src="#" class="contato_link-linkedin"><img class="contato_linkedin" src="imagens/linkedin.svg"></a></li>
-					<li><a src="#" class="contato_link-github"></a><img class="contato_github" src="imagens/github.svg"></li>
-				</ul>
-			</div>
-		</section>
-		<section class="historico">
-			<div class="historico_profissional">
-				<h2 class="historico_profissional--titulo">Histórico Profissional</h2>
-				<h3 class="historico_profissional--exp1">Facilitador de Treinamento</h3>
-				<h3 class="historico_profissional--exp2">Project Leader - Student</h3>
-			</div>
-			<div class="historico_educacional">
-				<h2 class="historico_educacional--titulo">Histórico Educacional</h2>
-				<h3 class="historico_educacional--exp">Programa Desenvolve + ONE</h3>
-				<h3 class="historico_educacional--exp">Imersão de Projetos</h3>
-				<h3 class="historico_educacional--exp">UNESP</h3>
-			</div>
-			<div class="historico_interesses">
-				<h2 class="historico_interesses--titulo">Interesses e Hobbies</h2>
-				<h3 class="historico_interesses--exp">Futebol</h3>
-				<h3 class="historico_interesses--exp">Línguas</h3>
-				<h3 class="historico_interesses--exp">Cantar e Dançar</h3>
-			</div>
-		</section>
+		<main>
+			<section class="dados_pessoais">
+				<div class="cabecalho">
+					<h1><img class="cabecalho_foto" src="imagens/willian1.jpeg"></h1>
+					<h2 class="cabecalho_nome">Willian Paulino</h2>
+					<p class="cabecalho_cargo">Desenvolvedor FullStack (student)</p>
+				</div>
+				<hr>
+				<div class="perfil pessoal_bloco">
+					<h3 class="perfil_titulo pessoal">Perfil Pessoal</h3>
+					<p class="perfil_descricao">Engenheiro biotecnológico de formação, tenho especialização em gestão de projetos e estou migrando para tecnologia, com foco em desenvolvimento full stack. </p>
+				</div>
+				<div class="habilidades pessoal_bloco">
+					<h3 class="habilidades_titulo pessoal">Habilidades e Competências</h3>
+					<ul class="habilidades_lista">
+						<li>&#9642; Lean Six Sigma (green-belt).</li>
+						<li>&#9642; Framework Scrum.</li>
+						<li>&#9642; Análise de dados (Excel, PBI e Minitab).</li>
+						<li>&#9642; HTML5, CSS3 e javaScript.</li>
+						<li>&#9642; Comunicação e problem solving.</li>
+						<li>&#9642; Mentalidade data-driven.</li>
+					</ul>
+				</div>
+				<div class="contato pessoal_bloco">
+				<!--	<h3 class="contato_titulo pessoal">Contato</h3> -->
+				<address>
+					<ul class="contato_lista">
+						<li class="icone"><a href="https://api.whatsapp.com/send?phone=+5511945900585" class="contato_link-whats"><img class="contato_whats" src="imagens/whatsapp.svg"></a></li>
+						<li class="icone"><a href="mailto:willianpaulinox@gmail.com" class="contato_link-email"><img class="contato_email" src="imagens/gmail.svg"></a></li>
+						<li class="icone"><a href="https://www.linkedin.com/in/willian-paulino-eng/" class="contato_link-linkedin"><img class="contato_linkedin" src="imagens/linkedin.svg"></a></li>
+						<li class="icone"><a href="https://github.com/willianPaulinoSantos" class="contato_link-github"><img class="contato_github" src="imagens/github.svg"></a></li>
+					</ul>
+				</address>
+				</div>
+			</section>
+			<section class="historico">
+				<div class="historico_profissional">
+					<h2 class="historico_profissional--titulo">Histórico Profissional</h2>
+					<h3 class="historico_profissional--exp1">Facilitador de Treinamento</h3>
+					<h3 class="historico_profissional--exp2">Project Leader - Student</h3>
+				</div>
+				<div class="historico_educacional">
+					<h2 class="historico_educacional--titulo">Histórico Educacional</h2>
+					<h3 class="historico_educacional--exp">Programa Desenvolve + ONE</h3>
+					<h3 class="historico_educacional--exp">Imersão de Projetos</h3>
+					<h3 class="historico_educacional--exp">UNESP</h3>
+				</div>
+				<div class="historico_interesses">
+					<h2 class="historico_interesses--titulo">Interesses e Hobbies</h2>
+					<h3 class="historico_interesses--exp">Futebol</h3>
+					<h3 class="historico_interesses--exp">Línguas</h3>
+					<h3 class="historico_interesses--exp">Cantar e Dançar</h3>
+				</div>
+			</section>
+		</main>
 	</body>
 </html>
