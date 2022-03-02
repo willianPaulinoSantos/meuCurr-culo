@@ -1,6 +1,6 @@
 .dados_pessoais {
     display: inline-block;
-    width: 30%;
+    width: 32%;
     height: 100%;
     background-color: var(--cinza-escuro);
 }
@@ -14,7 +14,7 @@
 
 h1 {
     text-align: center;
-    margin: 1rem 0;
+    margin: 2rem 0;
 }
 
 .cabecalho_foto {
@@ -36,12 +36,13 @@ h1 {
     font-weight: 400;
     text-transform: uppercase;
     color: var(--rosa-salmao);
-    padding: 2rem;
+    padding: 1.5rem;
 }
 
 hr {
     width: 80%;
     border-radius: 2px;
+    margin-bottom: 3rem;
 }
 
 .perfil {
@@ -49,25 +50,28 @@ hr {
 }
 
 .pessoal {
-    font-weight: 400;
-    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: var(--montserrat);
+    font-size: 1.05rem;
     color: var(--rosa-salmao);
     margin-bottom: 1rem;
+    text-transform: uppercase;
 }
 
 .pessoal_bloco {
     width: 72%;
-    margin: 1rem 3rem 2rem 3rem;
+    margin: 2.5rem 3rem 5rem 3rem;
 }
 
 .perfil_descricao {
     color: #FFF;
     text-align: justify;
+    line-height: 1.5rem;
 }
 
 .habilidades_lista {
     color: #FFF;
-    line-height: 1.5rem;
+    line-height: 2rem;
 }
 
 .contato_lista {
@@ -75,6 +79,7 @@ hr {
     flex-direction: row;
     justify-content: space-between;
     margin-top: 3.5rem;
+    padding-bottom: 30rem;
 }
 
 .icone:hover {
@@ -82,19 +87,61 @@ hr {
 }
 
 
-
-
-
-/* Seção do histórico */
+/* Seção do histórico ==========================================================================*/
 
 .historico {
     display: inline-block;
     background-color: var(--branco-gelo);
     vertical-align: top;
+    width: 67%;
+    height: 100%;
 }
 
+.historico_bloco {
+    width: 60%;
+    margin: 0 auto;
+    align-items: center;
+    padding: 3rem 0 0 0;
+}
 
-/* Seção Mobile*/
+.historico_profissional {
+    padding-top: 1.5rem;
+}
+
+.titulo {
+    font-family: var(--montserrat);
+    font-weight: 700;
+    font-size: 1.5rem;
+    background-color: var(--rosa-salmao);
+    padding: 1rem 1.5rem;
+    color: var(--cinza-escuro);
+}
+
+.historico_p_exp, .historico_e_exp {
+    font-weight: 700;
+    font-size: 1.1rem;
+    font-family: var(--montserrat);
+    padding: 1.5rem 0 1rem 0;
+}
+
+.historico_p_exp--local, .historico_e_exp--local {
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: var(--cinza-escuro);
+    margin-bottom: 1.3rem;
+}
+
+.historico_p_exp--descricao, .historico_e_exp--descricao {
+    text-align: justify;
+    line-height: 1.5rem;
+}
+
+.historico_interesses--exp {
+    line-height: 1.5rem;
+    padding-top: 1rem;
+}
+
+/* Seção Mobile ====================================================================================*/
 
 @media screen and (max-width: 768px){
     .dados_pessoais {
@@ -104,10 +151,24 @@ hr {
 
     .historico {
         display: block;
+        width: 100%;
+    }
+
+    .historico_bloco {
+        width: 80%;
     }
     
     .contato_lista {
         padding-bottom: 4rem;
+    }
+
+    .historico_interesses {
+        padding-bottom: 2rem;
+    }
+
+    .pessoal_bloco {
+       width: 80%;
+       margin: 2rem auto;
     }
 
 }

@@ -7,17 +7,16 @@
     --branco-gelo: #fefefa;
 }
 
-html {
-    font-size: 15px;
-}
-
-/*main {
-    width: 100vw;
-    height: 100vh;
-}*/
-
-
 h2 {
     font-family: var(--montserrat);
 }
 
+li {
+    margin: .5rem 0;
+}
+
+@media screen and (max-width: 768px){
+    html {
+        font-size: 20px;
+    }
+}
