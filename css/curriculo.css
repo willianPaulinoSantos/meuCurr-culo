@@ -74,12 +74,27 @@ hr {
     line-height: 2rem;
 }
 
+.habilidades_certificados {
+    text-decoration: none;
+    color: white;
+}
+
+.habilidades_certificados:hover {
+    font-size: 18px;
+    color: lightgreen;
+}
+
 .contato_lista {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-top: 3.5rem;
-    padding-bottom: 30rem;
+    padding-bottom: 40rem;
+}
+
+.explicação_lista {
+    font-size: 0.7rem;
+    color: var(--rosa-salmao);
 }
 
 .icone:hover {
@@ -134,6 +149,19 @@ hr {
 .historico_p_exp--descricao, .historico_e_exp--descricao {
     text-align: justify;
     line-height: 1.5rem;
+}
+
+.projetos {
+    color: #000000;
+}
+
+.projetos:hover {
+    color: green;
+    font-size: 18px;
+}
+
+.historico_interesses {
+    padding-bottom: 3rem;
 }
 
 .historico_interesses--exp {
